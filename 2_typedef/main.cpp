@@ -55,7 +55,7 @@ int main(int argc, const char * argv[])
 	ptr_p = &Jason;
 	ptr_c = &MyCar;
 	
-	
+	// any displaying to check whether it works
 	cout << ptr_p->name << endl;
 	
     return 0;
