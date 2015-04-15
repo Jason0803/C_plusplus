@@ -10,7 +10,11 @@
  *
  * This program is made for the use of complex number
  * Will express complex number by using struct
- *
+ * ONE VERY IMPORTANT THING IS
+ * I made this program little bit like c than c++
+ * just because was practicing 'typedef'
+ * could've mmade a class and made its inheritance
+ * but just focused on the use of typedef in c++
  */
 
 #include <iostream>
