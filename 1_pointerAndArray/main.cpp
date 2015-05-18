@@ -10,11 +10,9 @@
 
 using namespace std;
 
-
-int sum(const int *s, int size)
-{
+int sum(const int *s, int size) {
 	/*
-	 * this function will sum for each values in an array
+	 * this function will calculate sum. for each values in an array
 	 * reason why used 'const' is to prevent from changing values
 	 * even though the value called by reference (= 'read only')
 	 * '*s' will return the first address of the array at the first step
@@ -23,17 +21,14 @@ int sum(const int *s, int size)
 	 */
 	
 	int sum = 0;
-	for( int i = 0;  i < size; i++)
-	{
+	for( int i = 0;  i < size; i++) {
 		sum += *s;
 		++s;
 	}
-	
 	return sum;
 }
 
-double getAverage(const int *s, int size)
-{
+double getAverage(const int *s, int size) {
 	/*
 	 * this function will calculate average of values of the given array
 	 * '(double)' makes the result of calculation type as double
@@ -47,9 +42,7 @@ double getAverage(const int *s, int size)
 	return avg;
 }
 
-int main(int argc, const char * argv[])
-
-{
+int main(int argc, const char * argv[]) {
 	int total;
 	double average;
 	int score[5];
