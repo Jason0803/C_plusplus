@@ -12,6 +12,7 @@ using namespace std;
 
 int sum(const int *s, int size) {
 	/*
+	 * REVISED 19-MAY-2015
 	 * this function will calculate sum. for each values in an array
 	 * reason why used 'const' is to prevent from changing values
 	 * even though the value called by reference (= 'read only')
